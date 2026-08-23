@@ -438,7 +438,7 @@
     .hero-btn-group {
       display: flex;
       flex-wrap: wrap;
-      gap: 16px;
+      gap: 14px;
       margin-bottom: 44px;
     }
 
@@ -448,7 +448,7 @@
       gap: 10px;
       background: linear-gradient(135deg, var(--accent-ai), #00e08f);
       color: #05070c;
-      padding: 14px 30px;
+      padding: 13px 26px;
       border-radius: var(--radius-sm);
       font-family: var(--font-display);
       font-weight: 700;
@@ -469,16 +469,16 @@
     .btn-outline {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
+      gap: 9px;
       background: rgba(255, 255, 255, 0.03);
       border: 1px solid var(--border-subtle);
       color: var(--text-main);
-      padding: 14px 28px;
+      padding: 13px 22px;
       border-radius: var(--radius-sm);
       font-family: var(--font-display);
       font-weight: 700;
-      font-size: 13px;
-      letter-spacing: 0.08em;
+      font-size: 12.5px;
+      letter-spacing: 0.06em;
       text-transform: uppercase;
       text-decoration: none;
       backdrop-filter: blur(10px);
@@ -1580,7 +1580,7 @@
         <button class="btn-sound" id="sound-toggle" title="Toggle AI Sound FX" aria-label="Toggle Sound">
           <i class="fa-solid fa-volume-xmark" id="sound-icon"></i>
         </button>
-        <a href="Mahmoud_Abdelawal_CV.pdf" download="Mahmoud_Abdelawal_CV.pdf" class="nav-cv-btn" id="nav-cv-link">
+        <a href="Mahmoud_Abdelawal_CV.pdf" download="Mahmoud_Abdelawal_CV.pdf" class="nav-cv-btn" id="nav-cv-link" title="Download CV">
           <i class="fa-solid fa-file-pdf"></i> CV
         </a>
         <button class="menu-toggle" id="menu-btn" aria-label="Toggle Navigation Menu">
@@ -1625,13 +1625,17 @@
             <span>Explore AI Work</span>
             <i class="fa-solid fa-arrow-right"></i>
           </a>
+          <a href="Mahmoud_AI_Projects_Detailed_Guide.pdf" target="_blank" class="btn-outline">
+            <i class="fa-solid fa-file-pdf" style="color:var(--accent-ai)"></i>
+            <span>Projects Dossier (PDF)</span>
+          </a>
           <a href="Mahmoud_Abdelawal_CV.pdf" target="_blank" class="btn-outline">
             <i class="fa-solid fa-file-arrow-down"></i>
-            <span>Download CV (PDF)</span>
+            <span>CV (PDF)</span>
           </a>
           <a href="#contact" class="btn-outline">
             <i class="fa-solid fa-paper-plane"></i>
-            <span>Get in Touch</span>
+            <span>Contact</span>
           </a>
         </div>
 
@@ -1890,8 +1894,15 @@
        ========================================== -->
   <section id="projects">
     <div class="section-container">
-      <div class="section-tag">Featured Architectures &amp; Systems</div>
-      <h2 class="section-title">Engineered Intelligence in Action.</h2>
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:50px;flex-wrap:wrap;gap:16px;">
+        <div>
+          <div class="section-tag">Featured Architectures &amp; Systems</div>
+          <h2 class="section-title" style="margin-bottom:0;">Engineered Intelligence in Action.</h2>
+        </div>
+        <a href="Mahmoud_AI_Projects_Detailed_Guide.pdf" target="_blank" class="nav-cv-btn" style="padding:10px 22px;font-size:12px;">
+          <i class="fa-solid fa-file-pdf"></i> View Projects Dossier PDF
+        </a>
+      </div>
 
       <div class="projects-stack">
 
@@ -2241,8 +2252,12 @@
             <span class="detail-val" style="color:var(--accent-ai);font-family:var(--font-mono);font-size:12px;">● Open for Opportunities</span>
           </div>
 
-          <div style="margin-top:28px;">
-            <a href="Mahmoud_Abdelawal_CV.pdf" download="Mahmoud_Abdelawal_CV.pdf" class="btn-primary" style="width:100%;justify-content:center;">
+          <div style="margin-top:28px;display:flex;flex-direction:column;gap:10px;">
+            <a href="Mahmoud_AI_Projects_Detailed_Guide.pdf" download="Mahmoud_AI_Projects_Detailed_Guide.pdf" class="btn-primary" style="justify-content:center;">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>Download Projects Dossier (PDF)</span>
+            </a>
+            <a href="Mahmoud_Abdelawal_CV.pdf" download="Mahmoud_Abdelawal_CV.pdf" class="btn-outline" style="justify-content:center;">
               <i class="fa-solid fa-download"></i>
               <span>Download Full CV (PDF)</span>
             </a>
