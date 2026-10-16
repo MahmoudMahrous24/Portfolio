@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mahmoud Ahmed Abdelawal — AI & Data Science Engineer</title>
-  <meta name="description" content="Portfolio of Mahmoud Ahmed Abdelawal — AI & Data Science Engineer specializing in Multimodal Intelligence, Computer Vision, RAG Systems, and Generative AI.">
-  <meta name="keywords" content="Mahmoud Ahmed Abdelawal, AI Engineer, Data Scientist, Computer Vision, Deep Learning, PyTorch, RAG, Egypt, DEPI">
+  <title>Mahmoud Ahmed Abdelawal — AI & Machine Learning Engineer</title>
+  <meta name="description" content="Portfolio of Mahmoud Ahmed Abdelawal — AI & Machine Learning Engineer specializing in Multimodal Intelligence, Computer Vision, Deep Learning, RAG Systems, and Generative AI.">
+  <meta name="keywords" content="Mahmoud Ahmed Abdelawal, AI Engineer, Machine Learning Engineer, Computer Vision, Deep Learning, PyTorch, RAG, Egypt, DEPI, Crowdgen">
   <meta name="author" content="Mahmoud Ahmed Abdelawal">
   
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Mahmoud Ahmed Abdelawal — AI Engineer">
-  <meta property="og:description" content="Multimodal Intelligence, Computer Vision, RAG Systems & Generative AI. 1st Place AI Hackathon Winner.">
+  <meta property="og:title" content="Mahmoud Ahmed Abdelawal — AI & Machine Learning Engineer">
+  <meta property="og:description" content="AI & Machine Learning Engineer. 1st Place AI Hackathon Winner · Ministerial DEPI Honoree · S-Report AI Grade A+.">
   <meta property="og:image" content="profile.jpg">
   
   <!-- Google Fonts -->
@@ -218,7 +218,7 @@
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 28px;
+      gap: 26px;
       list-style: none;
     }
 
@@ -375,7 +375,7 @@
 
     .hero-title {
       font-family: var(--font-display);
-      font-size: clamp(40px, 5.2vw, 76px);
+      font-size: clamp(38px, 5.2vw, 74px);
       font-weight: 800;
       line-height: 1.05;
       letter-spacing: -0.03em;
@@ -399,7 +399,7 @@
 
     .typing-container {
       font-family: var(--font-mono);
-      font-size: clamp(16px, 1.9vw, 22px);
+      font-size: clamp(15px, 1.8vw, 21px);
       color: var(--accent-cyan);
       margin-bottom: 22px;
       display: flex;
@@ -424,9 +424,9 @@
 
     .hero-bio {
       color: var(--text-muted);
-      font-size: clamp(15px, 1.2vw, 17px);
+      font-size: clamp(14.5px, 1.2vw, 16.5px);
       line-height: 1.8;
-      max-width: 580px;
+      max-width: 590px;
       margin-bottom: 36px;
     }
 
@@ -494,8 +494,8 @@
 
     .hero-stats-row {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 18px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
       padding-top: 24px;
       border-top: 1px solid var(--border-subtle);
     }
@@ -503,7 +503,7 @@
     .h-stat-card {
       background: rgba(15, 23, 38, 0.4);
       border: 1px solid var(--border-subtle);
-      padding: 14px 16px;
+      padding: 14px 14px;
       border-radius: var(--radius-sm);
       transition: border-color 0.25s;
     }
@@ -515,7 +515,7 @@
     .h-stat-num {
       font-family: var(--font-display);
       font-weight: 800;
-      font-size: 24px;
+      font-size: 22px;
       color: var(--accent-ai);
       line-height: 1;
       margin-bottom: 4px;
@@ -523,7 +523,7 @@
 
     .h-stat-lbl {
       font-family: var(--font-mono);
-      font-size: 11px;
+      font-size: 10.5px;
       color: var(--text-dim);
       letter-spacing: 0.04em;
     }
@@ -662,7 +662,7 @@
       position: relative;
       z-index: 2;
       max-width: 1240px;
-      margin: 0 auto 100px;
+      margin: 0 auto 90px;
       padding: 0 36px;
     }
 
@@ -758,7 +758,7 @@
     section {
       position: relative;
       z-index: 2;
-      padding: 100px 36px;
+      padding: 90px 36px;
     }
 
     .section-container {
@@ -883,34 +883,94 @@
     }
 
     /* ==========================================================================
+       6.5 PROFESSIONAL EXPERIENCE
+       ========================================================================== */
+    .experience-card-timeline {
+      background: var(--bg-card);
+      border: 1px solid var(--border-cyan);
+      border-radius: var(--radius-lg);
+      padding: 36px 40px;
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5), 0 0 30px rgba(0, 217, 245, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    .experience-card-timeline:hover {
+      border-color: var(--accent-ai);
+      transform: translateY(-3px);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(0, 245, 160, 0.15);
+    }
+
+    .exp-header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .exp-role-title {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+
+    .exp-company-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--accent-cyan);
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .exp-period-pill {
+      background: rgba(0, 217, 245, 0.1);
+      border: 1px solid rgba(0, 217, 245, 0.3);
+      color: var(--accent-cyan);
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      padding: 6px 16px;
+      border-radius: var(--radius-full);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .exp-bullets-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .exp-bullets-list li {
+      position: relative;
+      padding-left: 24px;
+      color: var(--text-muted);
+      font-size: 14.5px;
+      line-height: 1.75;
+    }
+
+    .exp-bullets-list li::before {
+      content: '▹';
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--accent-ai);
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    /* ==========================================================================
        7. SKILLS MATRIX
        ========================================================================== */
-    .skills-filter {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 36px;
-    }
-
-    .skill-tab-btn {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid var(--border-subtle);
-      color: var(--text-muted);
-      padding: 8px 20px;
-      border-radius: var(--radius-full);
-      font-family: var(--font-mono);
-      font-size: 12px;
-      cursor: pointer;
-      transition: all 0.25s;
-    }
-
-    .skill-tab-btn.active, .skill-tab-btn:hover {
-      background: rgba(0, 245, 160, 0.12);
-      border-color: var(--accent-ai);
-      color: var(--accent-ai);
-      box-shadow: 0 0 15px rgba(0, 245, 160, 0.2);
-    }
-
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -1016,6 +1076,8 @@
       align-items: center;
       justify-content: space-between;
       margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 8px;
     }
 
     .project-index-num {
@@ -1042,10 +1104,11 @@
       box-shadow: 0 0 15px rgba(251, 191, 36, 0.2);
     }
 
-    .badge-grad {
-      background: rgba(0, 245, 160, 0.1);
-      border: 1px solid rgba(0, 245, 160, 0.3);
+    .badge-grad-a {
+      background: rgba(0, 245, 160, 0.15);
+      border: 1px solid rgba(0, 245, 160, 0.45);
       color: var(--accent-ai);
+      box-shadow: 0 0 15px rgba(0, 245, 160, 0.25);
     }
 
     .badge-depi {
@@ -1260,7 +1323,7 @@
 
     .cert-title-txt {
       font-family: var(--font-display);
-      font-size: 14.5px;
+      font-size: 14px;
       font-weight: 700;
       color: var(--text-main);
       margin-bottom: 4px;
@@ -1361,7 +1424,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 14px 0;
+      padding: 13px 0;
       border-bottom: 1px solid var(--border-subtle);
       font-size: 13.5px;
     }
@@ -1485,11 +1548,14 @@
         grid-template-columns: 1fr;
       }
       .certs-row {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
       }
       .contact-layout {
         grid-template-columns: 1fr;
         gap: 40px;
+      }
+      .hero-stats-row {
+        grid-template-columns: repeat(2, 1fr);
       }
     }
 
@@ -1530,6 +1596,9 @@
       .skills-grid {
         grid-template-columns: 1fr;
       }
+      .certs-row {
+        grid-template-columns: 1fr;
+      }
       .hero-stats-row {
         grid-template-columns: 1fr;
         gap: 12px;
@@ -1566,12 +1635,13 @@
         <div class="logo-icon">M</div>
         <div>
           <div class="logo-text">Mahmoud <span>Abdelawal</span></div>
-          <span class="logo-sub">AI & Data Science Engineer</span>
+          <span class="logo-sub">AI & Machine Learning Engineer</span>
         </div>
       </a>
 
       <ul class="nav-links" id="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#credentials">Honors</a></li>
@@ -1583,7 +1653,7 @@
           <i class="fa-solid fa-volume-xmark" id="sound-icon"></i>
         </button>
         <a href="Mahmoud_Abdelawal_CV.pdf" download="Mahmoud_Abdelawal_CV.pdf" class="nav-cv-btn" id="nav-cv-link" title="Download CV">
-          <i class="fa-solid fa-file-pdf"></i> CV
+          <i class="fa-solid fa-file-pdf"></i> Download CV
         </a>
         <button class="menu-toggle" id="menu-btn" aria-label="Toggle Navigation Menu">
           <i class="fa-solid fa-bars"></i>
@@ -1602,7 +1672,7 @@
       <div class="hero-text-col">
         <div class="status-pill">
           <span class="status-dot"></span>
-          <span>Open to AI Engineering & Research Roles</span>
+          <span>Open to AI & Machine Learning Roles</span>
         </div>
 
         <h1 class="hero-title">
@@ -1617,9 +1687,7 @@
         </div>
 
         <p class="hero-bio">
-          AI &amp; Data Science Engineer crafting <strong>production-ready multimodal systems</strong>, 
-          disaster response computer vision architectures, RAG pipelines, and generative AI models. 
-          Driven by mathematical rigor and practical real-world impact.
+          <strong>AI &amp; Machine Learning Engineer</strong> and Computer Science graduate with hands-on experience developing end-to-end AI solutions across <strong>Computer Vision, Deep Learning, NLP, and Generative AI</strong>. Proficient in Python, TensorFlow, PyTorch, and FastAPI, translating cutting-edge techniques into impactful real-world systems.
         </p>
 
         <div class="hero-btn-group">
@@ -1627,13 +1695,13 @@
             <span>Explore AI Work</span>
             <i class="fa-solid fa-arrow-right"></i>
           </a>
-          <a href="Mahmoud_AI_Projects_Detailed_Guide.pdf" target="_blank" class="btn-outline">
-            <i class="fa-solid fa-file-pdf" style="color:var(--accent-ai)"></i>
-            <span>Projects Dossier (PDF)</span>
-          </a>
           <a href="Mahmoud_Abdelawal_CV.pdf" target="_blank" class="btn-outline">
-            <i class="fa-solid fa-file-arrow-down"></i>
-            <span>CV (PDF)</span>
+            <i class="fa-solid fa-file-pdf" style="color:var(--accent-ai)"></i>
+            <span>View CV (PDF)</span>
+          </a>
+          <a href="Mahmoud_AI_Projects_Detailed_Guide.pdf" target="_blank" class="btn-outline">
+            <i class="fa-solid fa-book-open"></i>
+            <span>Projects Dossier</span>
           </a>
           <a href="#contact" class="btn-outline">
             <i class="fa-solid fa-paper-plane"></i>
@@ -1647,12 +1715,16 @@
             <div class="h-stat-lbl">AI Hackathon Winner</div>
           </div>
           <div class="h-stat-card">
-            <div class="h-stat-num">4+</div>
-            <div class="h-stat-lbl">Production AI Architectures</div>
+            <div class="h-stat-num">Grade A+</div>
+            <div class="h-stat-lbl">S-Report AI (Grad Project)</div>
+          </div>
+          <div class="h-stat-card">
+            <div class="h-stat-num">DEPI</div>
+            <div class="h-stat-lbl">Ministerial Honor (MCIT)</div>
           </div>
           <div class="h-stat-card">
             <div class="h-stat-num">EELU '26</div>
-            <div class="h-stat-lbl">AI Specialization · Honors</div>
+            <div class="h-stat-lbl">CS &amp; AI Graduate</div>
           </div>
         </div>
       </div>
@@ -1661,11 +1733,11 @@
       <div class="photo-hero-wrapper">
         <div class="photo-cyber-card" id="hero-photo-card">
           <div class="photo-inner-frame">
-            <img src="profile.jpg" alt="Mahmoud Ahmed Abdelawal - AI Engineer" id="profile-img">
+            <img src="profile.jpg" alt="Mahmoud Ahmed Abdelawal - AI & Machine Learning Engineer" id="profile-img">
             <div class="photo-scan-overlay"></div>
             <div class="photo-hud-badge">
               <i class="fa-solid fa-microchip"></i>
-              <span>AI &amp; Data Science Engineer</span>
+              <span>AI &amp; Machine Learning Engineer</span>
             </div>
           </div>
 
@@ -1706,13 +1778,14 @@
       <div class="terminal-body">
         <div class="terminal-prompt-chips">
           <button class="prompt-chip" onclick="runPrompt('summary')">⚡ Summarize Mahmoud in 10s</button>
+          <button class="prompt-chip" onclick="runPrompt('experience')">💼 Professional Experience</button>
+          <button class="prompt-chip" onclick="runPrompt('sreport')">🚨 S-Report AI (Grade A+)</button>
           <button class="prompt-chip" onclick="runPrompt('hackathon')">🏆 1st Place Hackathon Win</button>
-          <button class="prompt-chip" onclick="runPrompt('sreport')">🚨 S-Report Disaster AI</button>
-          <button class="prompt-chip" onclick="runPrompt('stack')">🛠️ Core AI Tech Stack</button>
-          <button class="prompt-chip" onclick="runPrompt('hire')">💼 Why Hire Mahmoud?</button>
+          <button class="prompt-chip" onclick="runPrompt('stack')">🛠️ Core Tech Stack</button>
+          <button class="prompt-chip" onclick="runPrompt('hire')">🎯 Why Hire Mahmoud?</button>
         </div>
         <div class="terminal-output" id="terminal-output-text">
-          <span class="prompt-prefix">&gt;&gt;</span> Click any prompt chip above to query the assistant about Mahmoud's engineering background, projects, and achievements.
+          <span class="prompt-prefix">&gt;&gt;</span> Click any prompt chip above to query the assistant about Mahmoud's engineering background, projects, experience, and achievements.
         </div>
       </div>
     </div>
@@ -1730,44 +1803,81 @@
         <!-- Main Bio Card -->
         <div class="bento-card bento-main">
           <div class="bento-icon mint"><i class="fa-solid fa-code-branch"></i></div>
-          <h3>AI &amp; Data Science Engineer</h3>
+          <h3>AI &amp; Machine Learning Engineer</h3>
           <p style="margin-bottom: 16px;">
-            I specialize in the end-to-end lifecycle of intelligent applications: from dataset curation and exploratory analysis to advanced model architecture design (CNNs, Transformers, Diffusion, GANs, RAG) and containerized FastAPI/Docker microservices.
+            I specialize in the end-to-end development of artificial intelligence solutions: from exploratory analysis, data cleaning, and model training to multimodal architectures (CNNs, Transformers, GANs, RAG) and production FastAPI/Docker deployment.
           </p>
           <p style="margin-bottom: 16px;">
-            Recognized nationwide by the <strong>Egyptian Minister of Communications</strong> as one of the top-performing students in the Digital Egypt Pioneers Initiative (DEPI), and champion of the <strong>AI Hackathon</strong> winning 1st place among teams across Egypt.
+            Graduated from the <strong>Egyptian E-Learning University (EELU)</strong> with an AI specialization. Recognized nationwide by the <strong>Minister of Communications of Egypt</strong> as a top-performing DEPI student, and champion of the <strong>AI Hackathon</strong> winning 1st place nationwide.
           </p>
           <p>
-            Passionate about pushing the frontiers of multimodal reasoning — bridging computer vision, natural language understanding, and decision systems for tangible real-world solutions.
+            Dedicated to solving complex challenges through rigorous mathematical thinking and practical engineering excellence.
           </p>
         </div>
 
         <!-- Card 2: Multimodal AI & Vision -->
         <div class="bento-card">
           <div class="bento-icon cyan"><i class="fa-solid fa-eye"></i></div>
-          <h3>Computer Vision &amp; Multimodal</h3>
-          <p>CLIP zero-shot inference, ConvNeXt classification, YOLOv8 segmentation, and MiDaS spatial depth estimation for urban disaster and clinical imagery.</p>
+          <h3>Computer Vision &amp; Spatial AI</h3>
+          <p>CLIP zero-shot learning, ConvNeXt-Tiny classification, YOLOv8 segmentation, and MiDaS monocular depth estimation for disaster intelligence and clinical image analysis.</p>
         </div>
 
         <!-- Card 3: RAG & LLMs -->
         <div class="bento-card">
           <div class="bento-icon purple"><i class="fa-solid fa-network-wired"></i></div>
-          <h3>RAG &amp; Vector Embeddings</h3>
-          <p>Grounded semantic search with ChromaDB, Nomic embeddings, and Gemini Flash for evidence-based clinical decision support pipelines.</p>
+          <h3>RAG &amp; Generative AI</h3>
+          <p>Grounded semantic retrieval pipelines utilizing ChromaDB, Nomic Embeddings, and Gemini API for evidence-based clinical decision support without hallucinations.</p>
         </div>
 
-        <!-- Card 4: Generative AI & Art -->
+        <!-- Card 4: Generative Deep Learning -->
         <div class="bento-card">
           <div class="bento-icon gold"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-          <h3>Generative Deep Learning</h3>
-          <p>Deep Convolutional GANs (DCGANs) and Neural Style Transfer algorithms capable of synthesizing authentic artistic styles and visual assets.</p>
+          <h3>GANs &amp; Neural Style Synthesis</h3>
+          <p>Deep Convolutional GANs (DCGANs) and Neural Style Transfer algorithms capable of learning masterwork brushstrokes and generating authentic artistic works.</p>
         </div>
 
         <!-- Card 5: Production & DevOps -->
         <div class="bento-card">
           <div class="bento-icon mint"><i class="fa-solid fa-server"></i></div>
-          <h3>Production APIs &amp; MLOps</h3>
-          <p>FastAPI async microservices, Docker containerization, SQLite/Postgres persistence, and scalable cloud deployment workflows on Microsoft Azure.</p>
+          <h3>Backend &amp; Cloud Deployment</h3>
+          <p>Asynchronous FastAPI microservices, Docker containerization, SQLite/PostgreSQL persistence, and scalable cloud workflows on Microsoft Azure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PROFESSIONAL EXPERIENCE SECTION
+       ========================================== -->
+  <section id="experience" style="background: rgba(10, 14, 23, 0.45);">
+    <div class="section-container">
+      <div class="section-tag">Career &amp; Practical Impact</div>
+      <h2 class="section-title">Professional Experience.</h2>
+
+      <div class="experience-card-timeline">
+        <div class="exp-header-top">
+          <div>
+            <h3 class="exp-role-title">AI Data Trainer <span style="font-size:15px;color:var(--text-dim);font-weight:400;">(Freelance / Contract)</span></h3>
+            <div class="exp-company-badge">
+              <i class="fa-solid fa-building"></i>
+              <span>Crowdgen Platform</span>
+            </div>
+          </div>
+          <span class="exp-period-pill"><i class="fa-regular fa-calendar-check" style="margin-right:6px;"></i>2025 &ndash; 2026</span>
+        </div>
+
+        <ul class="exp-bullets-list">
+          <li><strong>AI Model Training &amp; Evaluation:</strong> Evaluated and fine-tuned generative AI models by providing high-quality data annotation, complex reasoning evaluations, and systematic logical feedback.</li>
+          <li><strong>Data Integrity &amp; Algorithmic Accuracy:</strong> Ensured gold-standard benchmark datasets and algorithmic correctness, fostering deep analytical and prompt-level problem-solving capabilities.</li>
+          <li><strong>Adversarial &amp; Edge-Case Verification:</strong> Stress-tested AI responses against rigorous quality criteria, truthfulness constraints, and safety guidelines.</li>
+        </ul>
+
+        <div style="display:flex;flex-wrap:wrap;gap:8px;padding-top:10px;border-top:1px solid var(--border-subtle);">
+          <span class="p-tag">Data Annotation</span>
+          <span class="p-tag">Model Evaluation</span>
+          <span class="p-tag">Logical Reasoning</span>
+          <span class="p-tag">Algorithmic Quality</span>
+          <span class="p-tag">Data Integrity</span>
         </div>
       </div>
     </div>
@@ -1776,7 +1886,7 @@
   <!-- ==========================================
        SKILLS MATRIX
        ========================================== -->
-  <section id="skills" style="background: rgba(10, 14, 23, 0.5);">
+  <section id="skills" style="background: rgba(10, 14, 23, 0.6);">
     <div class="section-container">
       <div class="section-tag">Technical Competencies</div>
       <h2 class="section-title">The Engineering Toolkit.</h2>
@@ -1790,31 +1900,29 @@
             <h4>Machine &amp; Deep Learning</h4>
           </div>
           <div class="skill-tags-flex">
-            <span class="skill-tag-item">PyTorch</span>
-            <span class="skill-tag-item">TensorFlow</span>
-            <span class="skill-tag-item">Scikit-Learn</span>
-            <span class="skill-tag-item">CNN Architectures</span>
-            <span class="skill-tag-item">Transformers</span>
+            <span class="skill-tag-item">Machine Learning</span>
+            <span class="skill-tag-item">Deep Learning</span>
+            <span class="skill-tag-item">Neural Networks</span>
+            <span class="skill-tag-item">CNNs</span>
+            <span class="skill-tag-item">GANs</span>
             <span class="skill-tag-item">Transfer Learning</span>
+            <span class="skill-tag-item">Model Training</span>
             <span class="skill-tag-item">Hyperparameter Tuning</span>
-            <span class="skill-tag-item">Model Optimization</span>
           </div>
         </div>
 
-        <!-- Cluster 2: Computer Vision & Multimodal -->
+        <!-- Cluster 2: Computer Vision -->
         <div class="skill-cluster-card">
           <div class="cluster-header">
             <i class="fa-solid fa-camera-retro"></i>
-            <h4>Computer Vision &amp; Multimodal</h4>
+            <h4>Computer Vision</h4>
           </div>
           <div class="skill-tags-flex">
             <span class="skill-tag-item">YOLOv8</span>
-            <span class="skill-tag-item">CLIP (Zero-Shot)</span>
-            <span class="skill-tag-item">ConvNeXt</span>
-            <span class="skill-tag-item">BLIP Captioning</span>
-            <span class="skill-tag-item">MiDaS Depth</span>
+            <span class="skill-tag-item">Instance Segmentation</span>
+            <span class="skill-tag-item">Image Classification</span>
             <span class="skill-tag-item">OpenCV</span>
-            <span class="skill-tag-item">Image Segmentation</span>
+            <span class="skill-tag-item">MiDaS Depth Estimation</span>
             <span class="skill-tag-item">Spatial Intelligence</span>
           </div>
         </div>
@@ -1823,21 +1931,37 @@
         <div class="skill-cluster-card">
           <div class="cluster-header">
             <i class="fa-solid fa-comments"></i>
-            <h4>NLP, RAG &amp; Generative AI</h4>
+            <h4>NLP &amp; Generative AI</h4>
           </div>
           <div class="skill-tags-flex">
+            <span class="skill-tag-item">Text Preprocessing</span>
+            <span class="skill-tag-item">Tokenization</span>
+            <span class="skill-tag-item">Embeddings</span>
+            <span class="skill-tag-item">Sequence Modeling</span>
             <span class="skill-tag-item">RAG Pipelines</span>
             <span class="skill-tag-item">ChromaDB Vector DB</span>
-            <span class="skill-tag-item">Nomic Embeddings</span>
-            <span class="skill-tag-item">Gemini Flash API</span>
-            <span class="skill-tag-item">DCGANs</span>
-            <span class="skill-tag-item">Style Transfer</span>
-            <span class="skill-tag-item">SentenceTransformers</span>
-            <span class="skill-tag-item">Tokenization</span>
+            <span class="skill-tag-item">Vector Search</span>
+            <span class="skill-tag-item">Gemini API</span>
           </div>
         </div>
 
-        <!-- Cluster 4: Programming Languages -->
+        <!-- Cluster 4: Frameworks & Libraries -->
+        <div class="skill-cluster-card">
+          <div class="cluster-header">
+            <i class="fa-solid fa-cubes"></i>
+            <h4>Frameworks &amp; Libraries</h4>
+          </div>
+          <div class="skill-tags-flex">
+            <span class="skill-tag-item">TensorFlow</span>
+            <span class="skill-tag-item">PyTorch</span>
+            <span class="skill-tag-item">Scikit-Learn</span>
+            <span class="skill-tag-item">CLIP</span>
+            <span class="skill-tag-item">BLIP</span>
+            <span class="skill-tag-item">ConvNeXt</span>
+          </div>
+        </div>
+
+        <!-- Cluster 5: Programming Languages -->
         <div class="skill-cluster-card">
           <div class="cluster-header">
             <i class="fa-solid fa-code"></i>
@@ -1845,28 +1969,11 @@
           </div>
           <div class="skill-tags-flex">
             <span class="skill-tag-item">Python (Expert)</span>
-            <span class="skill-tag-item">TypeScript</span>
-            <span class="skill-tag-item">JavaScript</span>
-            <span class="skill-tag-item">C++</span>
             <span class="skill-tag-item">Java</span>
+            <span class="skill-tag-item">C++</span>
+            <span class="skill-tag-item">JavaScript</span>
+            <span class="skill-tag-item">TypeScript</span>
             <span class="skill-tag-item">SQL</span>
-          </div>
-        </div>
-
-        <!-- Cluster 5: Backend & Infrastructure -->
-        <div class="skill-cluster-card">
-          <div class="cluster-header">
-            <i class="fa-solid fa-cubes"></i>
-            <h4>Backend &amp; DevOps</h4>
-          </div>
-          <div class="skill-tags-flex">
-            <span class="skill-tag-item">FastAPI</span>
-            <span class="skill-tag-item">Docker</span>
-            <span class="skill-tag-item">Microsoft Azure</span>
-            <span class="skill-tag-item">React 19</span>
-            <span class="skill-tag-item">SQLite / PostgreSQL</span>
-            <span class="skill-tag-item">Git &amp; GitHub</span>
-            <span class="skill-tag-item">RESTful APIs</span>
           </div>
         </div>
 
@@ -1874,16 +1981,60 @@
         <div class="skill-cluster-card">
           <div class="cluster-header">
             <i class="fa-solid fa-chart-line"></i>
-            <h4>Data Science &amp; EDA</h4>
+            <h4>Data Science</h4>
           </div>
           <div class="skill-tags-flex">
+            <span class="skill-tag-item">EDA</span>
+            <span class="skill-tag-item">Data Cleaning</span>
+            <span class="skill-tag-item">Data Visualization</span>
             <span class="skill-tag-item">Pandas</span>
             <span class="skill-tag-item">NumPy</span>
             <span class="skill-tag-item">Matplotlib</span>
             <span class="skill-tag-item">Seaborn</span>
-            <span class="skill-tag-item">Feature Engineering</span>
-            <span class="skill-tag-item">Statistical Analysis</span>
-            <span class="skill-tag-item">Data Cleaning</span>
+          </div>
+        </div>
+
+        <!-- Cluster 7: Backend & DevOps -->
+        <div class="skill-cluster-card">
+          <div class="cluster-header">
+            <i class="fa-solid fa-server"></i>
+            <h4>Backend &amp; DevOps</h4>
+          </div>
+          <div class="skill-tags-flex">
+            <span class="skill-tag-item">FastAPI</span>
+            <span class="skill-tag-item">React</span>
+            <span class="skill-tag-item">SQLite</span>
+            <span class="skill-tag-item">Git &amp; GitHub</span>
+            <span class="skill-tag-item">Microsoft Azure</span>
+            <span class="skill-tag-item">Docker</span>
+            <span class="skill-tag-item">VS Code</span>
+          </div>
+        </div>
+
+        <!-- Cluster 8: Soft Skills -->
+        <div class="skill-cluster-card">
+          <div class="cluster-header">
+            <i class="fa-solid fa-user-gear"></i>
+            <h4>Soft Skills</h4>
+          </div>
+          <div class="skill-tags-flex">
+            <span class="skill-tag-item">Problem Solving</span>
+            <span class="skill-tag-item">Analytical Thinking</span>
+            <span class="skill-tag-item">Teamwork &amp; Communication</span>
+            <span class="skill-tag-item">Adaptability</span>
+            <span class="skill-tag-item">Eagerness to Learn</span>
+          </div>
+        </div>
+
+        <!-- Cluster 9: Languages -->
+        <div class="skill-cluster-card">
+          <div class="cluster-header">
+            <i class="fa-solid fa-language"></i>
+            <h4>Languages</h4>
+          </div>
+          <div class="skill-tags-flex">
+            <span class="skill-tag-item">Arabic: Native</span>
+            <span class="skill-tag-item">English: Professional Working Proficiency</span>
           </div>
         </div>
 
@@ -1901,8 +2052,8 @@
           <div class="section-tag">Featured Architectures &amp; Systems</div>
           <h2 class="section-title" style="margin-bottom:0;">Engineered Intelligence in Action.</h2>
         </div>
-        <a href="Mahmoud_AI_Projects_Detailed_Guide.pdf" target="_blank" class="nav-cv-btn" style="padding:10px 22px;font-size:12px;">
-          <i class="fa-solid fa-file-pdf"></i> View Projects Dossier PDF
+        <a href="Mahmoud_Abdelawal_CV.pdf" target="_blank" class="nav-cv-btn" style="padding:10px 22px;font-size:12px;">
+          <i class="fa-solid fa-file-pdf"></i> Download Official CV (PDF)
         </a>
       </div>
 
@@ -1914,13 +2065,17 @@
             <div>
               <div class="project-meta-top">
                 <span class="project-index-num">PROJECT // 01</span>
-                <span class="proj-badge badge-grad"><i class="fa-solid fa-graduation-cap"></i> Graduation Project</span>
+                <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                  <span class="proj-badge badge-grad-a"><i class="fa-solid fa-award"></i> Grade A+</span>
+                  <span class="proj-badge" style="background:rgba(255,255,255,0.05);border:1px solid var(--border-subtle);color:var(--text-muted);"><i class="fa-solid fa-graduation-cap"></i> Graduation Project</span>
+                </div>
               </div>
               <h3 class="project-main-title">S-Report AI: Universal Urban Intelligence &amp; Disaster Management</h3>
               <p class="project-desc-text">
-                A hybrid multimodal spatial AI system engineered for real-time disaster detection and automated emergency response. Uses CLIP zero-shot classification fused with ConvNeXt-Tiny for rapid hazard identification. Integrates BLIP semantic scene captioning, YOLOv8 instance segmentation, and MiDaS monocular depth estimation for 3D spatial intelligence. Coupled with an algorithmic weighted dispatch decision engine and production-grade FastAPI + Docker backend.
+                Developed a hybrid multimodal AI system (graduation project awarded <strong>Grade A+</strong>) combining <strong>5 models</strong> (CLIP, ConvNeXt-Tiny, BLIP, YOLOv8, and MiDaS) for disaster classification and spatial intelligence. Integrated YOLOv8 instance segmentation and MiDaS monocular depth estimation for 3D scene understanding. Engineered a weighted decision and dispatch engine for automated emergency resource allocation, backed by an asynchronous FastAPI microservice with SQLite and Docker containerization.
               </p>
               <div class="project-tech-tags">
+                <span class="p-tag">5-Model Ensemble</span>
                 <span class="p-tag">CLIP Zero-Shot</span>
                 <span class="p-tag">ConvNeXt-Tiny</span>
                 <span class="p-tag">YOLOv8 Segmentation</span>
@@ -1953,20 +2108,20 @@
             <div>
               <div class="project-meta-top">
                 <span class="project-index-num">PROJECT // 02</span>
-                <div style="display:flex;gap:6px;">
+                <div style="display:flex;gap:6px;flex-wrap:wrap;">
                   <span class="proj-badge badge-champion">🏆 1st Place · AI Hackathon</span>
                 </div>
               </div>
-              <h3 class="project-main-title">DermaAssist AI — Bilingual Clinical Decision Support</h3>
+              <h3 class="project-main-title">DermaAssist AI — Clinical Decision Support System</h3>
               <p class="project-desc-text">
-                Award-winning bilingual (Arabic/English) clinical decision support platform for dermatology, strictly grounded in official World Health Organization (WHO) clinical guidelines. Features a high-accuracy RAG pipeline powered by ChromaDB, Nomic Embeddings, and Gemini Flash. Incorporates multimodal lesion classification (image/video), Arabic/English voice queries, and an end-to-end dual portal for doctors and patients with prescription management. Built with React 19 + TypeScript and FastAPI + SQLite.
+                Built an award-winning bilingual (Arabic/English) clinical decision support platform grounded in official <strong>World Health Organization (WHO)</strong> clinical guidelines. Implemented a RAG pipeline using ChromaDB, Nomic Embeddings, and Gemini Flash for evidence-based diagnostic responses. Designed multimodal analysis across 3 input types (image, video, voice) and 2 dedicated user portals (Doctor/Patient) with automated prescription management.
               </p>
               <div class="project-tech-tags">
                 <span class="p-tag">RAG Architecture</span>
                 <span class="p-tag">ChromaDB</span>
                 <span class="p-tag">Nomic Embeddings</span>
                 <span class="p-tag">Gemini Flash</span>
-                <span class="p-tag">Multimodal AI</span>
+                <span class="p-tag">Multimodal AI (3 Inputs)</span>
                 <span class="p-tag">React 19</span>
                 <span class="p-tag">FastAPI</span>
               </div>
@@ -1994,11 +2149,11 @@
             <div>
               <div class="project-meta-top">
                 <span class="project-index-num">PROJECT // 03</span>
-                <span class="proj-badge badge-depi">🎨 DEPI Project</span>
+                <span class="proj-badge badge-depi">🎨 DEPI Graduation Project</span>
               </div>
               <h3 class="project-main-title">Artificial Vincent Van Gogh — Generative Art AI</h3>
               <p class="project-desc-text">
-                A generative neural synthesis pipeline designed to create authentic artwork inspired by the post-impressionist style of Vincent Van Gogh. Implements Deep Convolutional Generative Adversarial Networks (DCGANs) and Neural Style Transfer (NST) optimization algorithms, trained on a curated collection of historical masterworks using PyTorch and Python workflows.
+                Created a generative AI system (DEPI Graduation Project) using Deep Convolutional GANs (DCGANs) and neural style transfer to generate authentic Van Gogh-inspired images. Trained deep learning models on a curated Van Gogh dataset using Python and GAN-based workflows.
               </p>
               <div class="project-tech-tags">
                 <span class="p-tag">DCGANs</span>
@@ -2031,11 +2186,11 @@
             <div>
               <div class="project-meta-top">
                 <span class="project-index-num">PROJECT // 04</span>
-                <span class="proj-badge badge-data">📊 Data Analytics</span>
+                <span class="proj-badge badge-data">📊 Data Analysis</span>
               </div>
-              <h3 class="project-main-title">Data Analysis, EDA &amp; Insight Extraction</h3>
+              <h3 class="project-main-title">Data Analysis, EDA &amp; Statistical Modeling</h3>
               <p class="project-desc-text">
-                A comprehensive portfolio of end-to-end data analytics pipelines spanning exploratory data analysis (EDA), anomaly detection, statistical hypothesis testing, data cleaning, and insightful interactive visualizations across diverse real-world datasets. Built using Python, Pandas, NumPy, Matplotlib, and Seaborn.
+                Conducted exploratory data analysis (EDA), data cleaning, visualization, and insight extraction across real-world datasets. Constructed analytical pipelines using Python, Pandas, NumPy, Matplotlib, and Seaborn.
               </p>
               <div class="project-tech-tags">
                 <span class="p-tag">Python</span>
@@ -2044,7 +2199,7 @@
                 <span class="p-tag">Matplotlib</span>
                 <span class="p-tag">Seaborn</span>
                 <span class="p-tag">EDA</span>
-                <span class="p-tag">Statistical Testing</span>
+                <span class="p-tag">Data Cleaning</span>
               </div>
             </div>
             <div class="project-action-links">
@@ -2074,7 +2229,7 @@
   <section id="credentials" style="background: rgba(10, 14, 23, 0.6);">
     <div class="section-container">
       <div class="section-tag">Accreditation &amp; Recognition</div>
-      <h2 class="section-title">Honors &amp; Certifications.</h2>
+      <h2 class="section-title">Achievements &amp; Certifications.</h2>
 
       <!-- Major Honors -->
       <div class="achievements-grid">
@@ -2084,48 +2239,64 @@
           <div class="ach-icon-large">🏆</div>
           <h3>1st Place Champion — AI Hackathon</h3>
           <p>
-            Won First Place nationwide with <b>DermaAssist AI</b>, a bilingual clinical decision support platform for dermatology built with RAG and multimodal vision.
+            Won first place nationwide with <b>DermaAssist AI</b>, a bilingual clinical decision support system for dermatology. Sponsored by the Ministry of Communications, Orange Egypt, and Instant.
           </p>
-          <cite class="ach-cite">— Ministry of Communications &amp; IT · Orange Egypt · Instant (إنستانت)</cite>
+          <cite class="ach-cite">— Ministry of Communications &amp; IT · Orange Egypt · Instant</cite>
         </div>
 
         <!-- Ministerial Honor -->
         <div class="achievement-card-mint">
           <div class="ach-icon-large">🎖️</div>
-          <h3>Ministerial Honor for Top Performance</h3>
+          <h3>Ministerial Recognition for Top Performance</h3>
           <p>
-            Honored by the <b>Minister of Communications of Egypt</b> for outstanding AI projects and recognized as one of the top-performing students nationwide within the Digital Egypt Pioneers Initiative (DEPI).
+            Recognized by the <b>Minister of Communications of Egypt</b> as a top-performing student nationwide within the Digital Egypt Pioneers Initiative (DEPI).
           </p>
           <cite class="ach-cite">— Ministry of Communications and Information Technology (MCIT), Egypt</cite>
         </div>
 
       </div>
 
-      <!-- Certifications Row -->
+      <!-- Certifications & Courses Grid -->
       <div class="certs-row">
         
+        <div class="cert-item-card">
+          <div>
+            <div class="cert-title-txt">Data Analysis Diploma</div>
+            <div class="cert-issuer-txt">Creativa Hub Sohag</div>
+          </div>
+          <div class="cert-date-txt">Oct &ndash; Nov 2026</div>
+        </div>
+
+        <div class="cert-item-card">
+          <div>
+            <div class="cert-title-txt">Deep Learning, Computer Vision &amp; NLP</div>
+            <div class="cert-issuer-txt">Eng. Hisham Asem Training</div>
+          </div>
+          <div class="cert-date-txt">Sep &ndash; Dec 2025</div>
+        </div>
+
         <div class="cert-item-card">
           <div>
             <div class="cert-title-txt">Microsoft ML Engineer</div>
             <div class="cert-issuer-txt">Digital Egypt Pioneers Initiative (DEPI)</div>
           </div>
-          <div class="cert-date-txt">12 / 2025</div>
+          <div class="cert-date-txt">Mar &ndash; Nov 2024</div>
         </div>
 
         <div class="cert-item-card">
           <div>
-            <div class="cert-title-txt">English &amp; Soft Skills</div>
+            <div class="cert-title-txt">English and Soft Skills</div>
             <div class="cert-issuer-txt">Digital Egypt Pioneers Initiative (DEPI)</div>
           </div>
-          <div class="cert-date-txt">2025</div>
+          <div class="cert-date-txt">Mar &ndash; Nov 2024</div>
         </div>
 
         <div class="cert-item-card">
           <div>
-            <div class="cert-title-txt">Deep Learning, CV &amp; NLP</div>
-            <div class="cert-issuer-txt">Hisham Asem Training</div>
+            <div class="cert-title-txt">Huawei HCIA-AI V3.5</div>
+            <div class="cert-issuer-txt">Huawei Certification Program</div>
           </div>
-          <div class="cert-date-txt">2024</div>
+          <div class="cert-date-txt">Sep &ndash; Nov 2024</div>
         </div>
 
       </div>
@@ -2144,9 +2315,9 @@
         
         <!-- Left Contact Channels -->
         <div class="contact-info-panel">
-          <h3>Ready to Build Ambitious AI Together?</h3>
+          <h3>Ready to Build Ambitious AI Solutions?</h3>
           <p>
-            I am actively open to full-time AI Engineering roles, high-impact research collaborations, and innovative machine learning projects. Feel free to reach out directly via email, phone, or LinkedIn.
+            I am actively open to full-time AI &amp; Machine Learning Engineering roles, innovative production projects, and high-impact research. Reach out directly via email, WhatsApp, or LinkedIn.
           </p>
 
           <div class="contact-channels-list">
@@ -2162,7 +2333,7 @@
               <span class="channel-action-txt">Send →</span>
             </a>
 
-            <a href="https://www.linkedin.com/in/mahmoud-ahmed-mahrous-53688b24b" target="_blank" class="contact-channel-item">
+            <a href="http://linkedin.com/in/mahmoud-ahmed-mahrous-53688b24b" target="_blank" class="contact-channel-item">
               <div class="channel-left">
                 <i class="fa-brands fa-linkedin"></i>
                 <div>
@@ -2173,7 +2344,7 @@
               <span class="channel-action-txt">Connect →</span>
             </a>
 
-            <a href="https://github.com/MahmoudMahrous24" target="_blank" class="contact-channel-item">
+            <a href="http://github.com/MahmoudMahrous24" target="_blank" class="contact-channel-item">
               <div class="channel-left">
                 <i class="fa-brands fa-github"></i>
                 <div>
@@ -2189,7 +2360,7 @@
                 <i class="fa-brands fa-kaggle"></i>
                 <div>
                   <div style="font-weight:600;">Kaggle</div>
-                  <div style="font-size:12px;color:var(--text-muted);">Notebooks &amp; Datasets</div>
+                  <div style="font-size:12px;color:var(--text-muted);">Notebooks &amp; Models</div>
                 </div>
               </div>
               <span class="channel-action-txt">Explore →</span>
@@ -2222,6 +2393,11 @@
           </div>
 
           <div class="detail-row">
+            <span class="detail-key">Title</span>
+            <span class="detail-val" style="color:var(--accent-cyan);font-weight:600;">AI &amp; ML Engineer</span>
+          </div>
+
+          <div class="detail-row">
             <span class="detail-key">Date of Birth</span>
             <span class="detail-val">March 15, 2004</span>
           </div>
@@ -2241,7 +2417,7 @@
 
           <div class="detail-row">
             <span class="detail-key">Phone</span>
-            <span class="detail-val">01126242527</span>
+            <span class="detail-val">+201126242527</span>
           </div>
 
           <div class="detail-row">
@@ -2250,13 +2426,13 @@
           </div>
 
           <div class="detail-row">
-            <span class="detail-key">University</span>
-            <span class="detail-val">EELU — AI Specialization</span>
+            <span class="detail-key">Education</span>
+            <span class="detail-val">EELU — CS &amp; AI (2022 : 2026)</span>
           </div>
 
           <div class="detail-row">
-            <span class="detail-key">Graduation</span>
-            <span class="detail-val">June 2026</span>
+            <span class="detail-key">Languages</span>
+            <span class="detail-val">Arabic (Native) · English (Proficient)</span>
           </div>
 
           <div class="detail-row">
@@ -2264,14 +2440,14 @@
             <span class="detail-val" style="color:var(--accent-ai);font-family:var(--font-mono);font-size:12px;">● Open for Opportunities</span>
           </div>
 
-          <div style="margin-top:28px;display:flex;flex-direction:column;gap:10px;">
-            <a href="Mahmoud_AI_Projects_Detailed_Guide.pdf" download="Mahmoud_AI_Projects_Detailed_Guide.pdf" class="btn-primary" style="justify-content:center;">
+          <div style="margin-top:24px;display:flex;flex-direction:column;gap:10px;">
+            <a href="Mahmoud_Abdelawal_CV.pdf" download="Mahmoud_Abdelawal_CV.pdf" class="btn-primary" style="justify-content:center;">
+              <i class="fa-solid fa-download"></i>
+              <span>Download Official CV (PDF)</span>
+            </a>
+            <a href="Mahmoud_AI_Projects_Detailed_Guide.pdf" download="Mahmoud_AI_Projects_Detailed_Guide.pdf" class="btn-outline" style="justify-content:center;">
               <i class="fa-solid fa-file-pdf"></i>
               <span>Download Projects Dossier (PDF)</span>
-            </a>
-            <a href="Mahmoud_Abdelawal_CV.pdf" download="Mahmoud_Abdelawal_CV.pdf" class="btn-outline" style="justify-content:center;">
-              <i class="fa-solid fa-download"></i>
-              <span>Download Full CV (PDF)</span>
             </a>
           </div>
         </div>
@@ -2286,7 +2462,7 @@
   <footer>
     <div class="footer-inner">
       <span>© 2026 <b>Mahmoud Ahmed Abdelawal</b>. All rights reserved.</span>
-      <span>Engineered with Precision &bull; AI &amp; Data Science</span>
+      <span>Engineered with Precision &bull; AI &amp; Machine Learning</span>
     </div>
   </footer>
 
@@ -2330,8 +2506,9 @@
     // 2. HERO TYPING EFFECT
     // ==========================================
     const specializations = [
-      'Multimodal AI Systems',
+      'AI & Machine Learning Engineering',
       'Computer Vision & Object Segmentation',
+      'Deep Learning & Neural Architectures',
       'RAG & Vector Embeddings',
       'Generative Deep Learning & GANs',
       'Production FastAPI & Docker APIs'
@@ -2704,11 +2881,12 @@
     // 5. INTERACTIVE TERMINAL QUERY ENGINE
     // ==========================================
     const promptResponses = {
-      summary: "Mahmoud Ahmed Abdelawal is a high-performing AI & Data Science Engineer specialized in Multimodal Architectures, Computer Vision, RAG & LLMs, and Production Deployment. Honored by the Minister of Communications and Winner of the nationwide AI Hackathon.",
-      hackathon: "🏆 1st Place Champion: Mahmoud led the development of DermaAssist AI — a bilingual clinical decision support system utilizing WHO-grounded RAG, ChromaDB, Gemini Flash, and multimodal lesion classification, winning 1st place among teams across Egypt.",
-      sreport: "🚨 S-Report AI: Mahmoud's graduation project fusing CLIP zero-shot classification, ConvNeXt-Tiny, YOLOv8 segmentation, BLIP, and MiDaS depth estimation into an automated disaster response and resource dispatch decision engine.",
-      stack: "🛠️ Core Stack: Python, PyTorch, TensorFlow, Scikit-Learn, YOLOv8, CLIP, BLIP, ChromaDB, FastAPI, Docker, Microsoft Azure, React 19, TypeScript, Pandas, NumPy.",
-      hire: "💼 Value Proposition: Combines cutting-edge deep learning research capabilities with solid software engineering and production containerization. Proven track record under competitive pressure with verified ministry honors."
+      summary: "Mahmoud Ahmed Abdelawal is an AI & Machine Learning Engineer specializing in Computer Vision, Deep Learning, NLP, and Generative AI. Experienced building production systems, winner of 1st Place at the AI Hackathon, honored by the Minister of Communications (MCIT), and graduated with Grade A+ for S-Report AI.",
+      experience: "💼 Professional Experience: AI Data Trainer (Freelance/Contract) on Crowdgen Platform (2025-2026). Evaluated and fine-tuned generative AI models with high-quality data annotation, complex reasoning evaluations, and rigorous logical feedback.",
+      sreport: "🚨 S-Report AI (Grade A+): Graduation project combining 5 AI models (CLIP, ConvNeXt-Tiny, BLIP, YOLOv8, and MiDaS) for real-time disaster detection, 3D depth perception, and automated emergency resource dispatch.",
+      hackathon: "🏆 1st Place Champion: Mahmoud led the development of DermaAssist AI — an award-winning bilingual clinical decision support system grounded in WHO guidelines, powered by ChromaDB RAG, Gemini Flash, and multimodal lesion classification.",
+      stack: "🛠️ Core Stack: Python, TensorFlow, PyTorch, Scikit-Learn, YOLOv8, CLIP, BLIP, ConvNeXt, MiDaS, ChromaDB, FastAPI, Docker, Microsoft Azure, React, SQLite, Pandas, NumPy.",
+      hire: "🎯 Value Proposition: Combines strong deep learning and multimodal engineering abilities with real-world contract experience at Crowdgen, proven competition excellence, and production-ready FastAPI/Docker microservice design."
     };
 
     function runPrompt(type) {
